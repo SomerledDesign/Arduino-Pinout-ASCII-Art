@@ -1,0 +1,41 @@
+/*
+  Project Name: 
+  Hardware:     MH-ET Live D1 mini kit ESP32
+  Created:      2026/01/07
+  Modified:     2026/01/07
+  Language:     C++/Arduino
+  Version:      1.0.0
+  Author/s:     SomerledDesign
+  Licensing:    
+
+  Notes:        Function/IDE Pin Number | IDE Pin Number/Function       GPIO1   \
+                 o  normal pin                                          GPIO6   | On board peripherals
+                (o) Pin is in white silkscreen                          GPIO7   |     DO NOT USE
+                ~   PWM/I2C/1 Wire Pin,                                 GPIO8   |         ☠️
+                x = Pin is being used.                                  GPIO11  /
+
+
+                                           MH-ET Live D1 mini kit ESP32 (top view, USB at bottom)
+                                             /------------------------------------------------\
+                                            /                    | [__][__] |                  \            
+                  IDE                      /                     | |antenna |                   \              IDE                             
+             GND   |   RST                 |  GND o  | (o)  RST  +----------+ IO1  (o) |  o GND  |  TXD:0      1|   GND
+             N/C   |   SVP/ADC             |  N/C o  | (o)  A0   |          | IO3  (o) |  o IO27 |  RXD:0      3|27 GPIO27 
+ ADC3/SVN/GPIO39 39|26 D0/GPIO26/DAC1      | IO39 o  | (o)  IO26 |  ESP32   | IO22~(o) |  o IO25 |  D1/SCL    22|25 GPIO25/DAC0
+     ADC1/GPIO35 35|18 D5/GPIO18/ SCK:0    | IO35 o  | (o)  IO18 |  WROOM   | IO21~(o) |  o IO32 |  D2/SDA    21|32 GPIO32
+          GPIO33 33|19 D6/GPIO19/MISO:0    | IO33 o  | (o)  IO19 |          | IO17 (o) |  o IO12 |  D3/GPIO17 17|12 GPIO12  
+     ADC0/GPIO34 34|23 D7/GPIO23/MOSI:0    | IO34 o  | (o)  IO23 |          | IO16 (o) |  o~IO04 |  D4/GPIO16 16|4  GPIO4/PWM0:2
+      TMS/GPIO14 14| 5 D8/GPIO5 /  CS:0    | IO14 o  | (o)  IO5  |          | GND  (o) |  o~IO0  |        GND   |0  GPIO0/PWM0:1
+             N/C   |   3v3                 |  N/C o  | (o)  3v3  +----------+ Vcc  (o) |  o~IO2  |        VCC   |2  GPIO2/PWM0:0
+ TXD:1/SD2/GPIO9  9|13 TCK/GPIO13          | IO9  o  |  O   IO13              IO15  o  |  o IO8  | TD0/GPIO15 15|8  GPIO8/SD1
+      CMD/GPIO11 11|10 GPIO10/SD3/RXD:1    | IO11 o  |  O   IO10              IO7   o  |  o IO6  | SD0/GPIO7   7|6  GPIO6/CLK
+                                           |          +----+                                     |
+                                           |          |    |                                     |
+                                           |_         +----+                                     |
+                                             |-+                    | USB |               [__]   |
+                                            ⍧| |RST                 |     |               [__]   |
+                                             +-+-------------------^ ===== ^---------------------+
+                                      
+ Update these pins to match your wiring.
+ 
+ */

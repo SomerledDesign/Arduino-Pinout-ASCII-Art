@@ -1,0 +1,24 @@
+/*
+  Project Name: 
+  Hardware:     ATTiny85
+  Created:      2026/01/07
+  Modified:     2026/01/07
+  Language:     C++/Arduino
+  Version:      1.0.0
+  Author/s:     SomerledDesign
+  Licensing:    
+
+  Notes:        Function/IDE Pin Number | IDE Pin Number/Function     
+                ~   PWM/I2C/1 Wire Pin,
+                o = normal pin                                
+                x = Pin is being used.     
+
+
+                                       === ATTINY85 ===
+                                          ┌────☋────┐
+              dW/RST/PWM/PCINT5/ADC0/PB5 ─┤o 1   8 o├─ VCC 
+                     PWM/PCINT3/ADC3/PB3 ─┤o 2   7 o├─ PB2/ADC1/PCINT2/SCK /SCL
+                     PWM/PCINT4/ADC2/PB4 ─┤o 3   6 o├─ PB1/AIN1/PCINT1/MISO/PWM
+                                     GND ─┤o 4   5 o├─ PB0/AIN0/PCINT0/MOSI/SDA 
+                                          └─────────┘
+*/

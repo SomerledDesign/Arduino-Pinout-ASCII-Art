@@ -1,0 +1,22 @@
+/*
+  Project Name: 
+  Hardware:     ATTiny10
+  Created:      2026/01/07
+  Modified:     2026/01/07
+  Language:     C++/Arduino
+  Version:      1.0.0
+  Author/s:     SomerledDesign
+  Licensing:    
+
+  Notes:        Function/IDE Pin Number | IDE Pin Number/Function     
+                ~   PWM/I2C/1 Wire Pin,                               
+                x = Pin is being used.
+                
+                ATMEL              ATTINY10/9/5/4        ARDUINO
+
+                                       +-\/-+
+     Ain0 / ADC0 / OCOA / PCINT0 PB0  1|    |6  PB3 / PCINT3 / ADC3 / RESET
+                                 GND  2|    |5  Vcc
+     Ain1 / ADC1 / OC0B / PCINT1 PB1  3|    |4  PB2 / PCINT2 / ADC2
+                                       +----+
+*/
