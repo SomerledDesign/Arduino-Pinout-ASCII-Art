@@ -8,17 +8,22 @@ I use the “Wiring diagram:” to link the sensor hardware to the Arduino pin. 
 
 **This is a list of the ASCII art:**
 
-- [Adafruit Feather HUZZAH ESP8266](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Adafruit-Feather-HUZZAH-ESP8266.txt)
-- [Arduino Mega 2560 R3](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Mega-2560-R3.txt)
-- [Arduino Nano 33 BLE Sense](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Nano33-BLE-Sense.txt)
-- [Arduino Pro Mini 168](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Pro-Mini-168.txt)
-- [Arduino Pro Mini 328P](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Pro-Mini-328P.txt)
-- [Arduino UNO R3](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-UNO-R3.txt)
-- [Wemos D1 mini ESP8266](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Wemos-D1-Mini-ESP8266.txt)
-- [Wemos D1 mini Pro ESP8266](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Wemos-D1-Mini-Pro-ESP8266.txt)
-- [BSFrance-LoRa32u4-II-1.3.txt](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/BSFrance-LoRa32u4-II-1.3.txt)
-- [ESP-32 CAM](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/ESP32-CAM.txt)
-- [LilyGO TTGO LoRa32 ESP32 T3 V1.6.1](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/LilyGO-TTGO-LoRa32-ESP32-T3-V1.6.1.txt)
+- [Adafruit-Feather-HUZZAH-ESP8266.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Adafruit-Feather-HUZZAH-ESP8266.txt)
+- [Arduino-ATTiny-10.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Arduino-ATTiny-10.txt)
+- [Arduino-ATTiny-84.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Arduino-ATTiny-84.txt)
+- [Arduino-ATTiny-85.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Arduino-ATTiny-85.txt)
+- [Arduino-MH-ET-Live-Mini-Kit-ESP32.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Arduino-MH-ET-Live-Mini-Kit-ESP32.txt)
+- [Arduino-Mega-2560-R3.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Mega-2560-R3.txt)
+- [Arduino-Nano33-BLE-Sense.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Nano33-BLE-Sense.txt)
+- [Arduino-Pro-Mini-168.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Pro-Mini-168.txt)
+- [Arduino-Pro-Mini-328P.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Pro-Mini-328P.txt)
+- [Arduino-UNO-R3.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Arduino-UNO-R3.txt)
+- [Arduino-Wemos-D1-Mini-ESP8266.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Wemos-D1-Mini-ESP8266.txt)
+- [Arduino-Wemos-D1-Mini-Pro-ESP8266.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Wemos-D1-Mini-Pro-ESP8266.txt)
+- [Arduino-Wemos-D1-Mini32-ESP32.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Wemos-D1-Mini32-ESP32.txt)
+- [BSFrance-LoRa32u4-II-1.3.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/BSFrance-LoRa32u4-II-1.3.txt)
+- [ESP32-CAM.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/ESP32-CAM.txt)
+- [LilyGO-TTGO-LoRa32-ESP32-T3-V1.6.1.txt](https://github.com/SomerledDesign/Arduino-Pinout-ASCII-Art/blob/main/LilyGO-TTGO-LoRa32-ESP32-T3-V1.6.1.txt)
 
 ## Example:
 ```cpp
