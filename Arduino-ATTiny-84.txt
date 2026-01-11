@@ -2,7 +2,7 @@
   Project Name: 
   Hardware:     ATTiny84
   Created:      2026/01/07
-  Modified:     2026/01/07
+  Modified:     2026/01/10
   Language:     C++/Arduino
   Version:      1.0.0
   Author/s:     SomerledDesign
@@ -12,12 +12,15 @@
                 ~   PWM/I2C/1 Wire Pin,                               
                 x = Pin is being used.                                
 
-                                       === ATTINY85 ===
-                                          ┌────☋────┐
-              dW/RST/PWM/PCINT5/ADC0/PB5 ─┤o 1   8 o├─ VCC 
-                     PWM/PCINT3/ADC3/PB3 ─┤o 2   7 o├─ PB2/ADC1/PCINT2/SCK /SCL
-                     PWM/PCINT4/ADC2/PB4 ─┤o 3   6 o├─ PB1/AIN1/PCINT1/MISO/PWM
-                                     GND ─┤o 4   5 o├─ PB0/AIN0/PCINT0/MOSI/SDA 
-                                          └─────────┘
+                                         === ATTINY84 ===
+                                            ┌────☋────┐
+                                       VCC ─┤o 1  14 o├─ GND 
+    10|0             XTAL1/CLKI/PCINT8/PB0 ─┤o 2  13 o├─ PA0/AREF/PCINT0/ADC0           10|A0
+    9|1                   XTAL2/PCINT9/PB1 ─┤o 3  12 o├─ PA1/AIN0/PCINT1/ADC1            9|A1
+     |               !RESET/dW/PCINT11/PB3 ─┤o 4  11 o├─ PA2/AIN1/PCINT2/ADC2            8|A2
+    8|2        OC0A/INT0/CKOUT/PCINT10/PB2 ─┤o 5  10 o├─ PA3/PCINT3/ADC3         /T0     7|A3
+    3|A7      OC0B/ICP/ADC7/ADC/PCINT7/PA7 ─┤o 6   9 o├─ PA4/PCINT4/ADC4/USCK/SCL/T1     6|A4
+    4|A6  SDA/MOSI/OC1A/DI/ADC6/PCINT6/PA6 ─┤o 7   8 o├─ PA5/PCINT5/ADC5/OC1B/SDA/D0     5|A5
+                                            └─────────┘
 
 */
